@@ -57,6 +57,10 @@ background:none;
 height:auto;
 display:block;
 }
+  .hero img{
+width:100%;
+display:block;
+}
 .hero h1{
 font-size:55px;
 color:var(--gold);
@@ -128,9 +132,15 @@ gap:15px;
 
 .gallery img{
 width:100%;
-height:280px;
+height:320px;
 object-fit:cover;
-border-radius:10px;
+border-radius:12px;
+transition:0.4s;
+cursor:pointer;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
 }
 
 .contact-box{
@@ -189,6 +199,7 @@ display:none;
 <a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#products">Products</a>
+<a href="#tailoring">Tailoring</a>  
 <a href="#gallery">Gallery</a>
 <a href="#contact">Contact</a>
 </div>
@@ -206,7 +217,7 @@ style="width:100%;height:auto;display:block;">
 
 <div class="about-grid">
 <div>
-<img src="PHOTO1.jpg" alt="">
+<img src="Photo1.jpg.jpeg" alt="Apsara Collection & Boutique">
 </div>
 
 <div>
@@ -255,6 +266,37 @@ service for every customer.
 </div>
 </div>
 </section>
+<section id="tailoring">
+<div class="container">
+
+<h2 class="title">Tailoring Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Designer Suit Stitching</h3>
+<p>Perfect fitting and premium finishing for every occasion.</p>
+</div>
+
+<div class="card">
+<h3>Anarkali & Party Wear</h3>
+<p>Custom stitching with elegant designs and measurements.</p>
+</div>
+
+<div class="card">
+<h3>Daily Wear Stitching</h3>
+<p>Comfortable and stylish stitching for everyday use.</p>
+</div>
+
+<div class="card">
+<h3>Alteration Service</h3>
+<p>Size adjustment and fitting corrections available.</p>
+</div>
+
+</div>
+
+</div>
+</section>  
 
 <section id="gallery">
 <div class="container">
